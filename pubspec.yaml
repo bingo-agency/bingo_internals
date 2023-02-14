@@ -1,0 +1,31 @@
+name: bingo_internals
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.2 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  google_fonts: ^2.0.0
+  cloud_firestore: ^4.3.2
+  firebase_core: ^2.5.0
+  firebase_auth: ^4.2.6
+  provider: ^6.0.5
+  lottie: ^1.4.2
+  shared_preferences: ^2.0.17
+  cached_network_image: ^3.2.3
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/images/
+    - assets/icons/
+  uses-material-design: true
+
